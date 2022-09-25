@@ -12,3 +12,14 @@ print('\033[1m'"2) Busca en la documentación la forma correcta de redondear el 
 print(round((365/12)*14.7)) #se utiliza round() para redondear el resultado de la operación
 print("\n")
 print('\033[1m'"3) Crea dos variables que almacenen 2 strings (username y password). Realizar las siguientes comprobaciones utilizando operadores lógicos: \n"'\033[0m')
+
+usuario= input("Introduce tu usuario")
+contraseña= input("Introduce tu contraseña") 
+
+if (3 <= len(usuario) <= 10):
+  print ("True")
+
+if contraseña == ("PYTHON") or contraseña == ("TOKIO"):
+  print ("True")
+else:
+  print ("False")
